@@ -1,3 +1,5 @@
+"use client";
+import RoverImages from '@/components/RoverImages'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -9,6 +11,9 @@ export default function Home() {
         </p>
 
       </div>
+      <>
+        <RoverImages></RoverImages>
+      </>
     </main>
   )
 }
